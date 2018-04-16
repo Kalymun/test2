@@ -1,0 +1,25 @@
+files:
+  - source: /README.md
+    translation: /translation/%two_letters_code%/%file_name%.%file_extension%
+  - source: /italiasssdda/*.*
+    ignore:
+      - /italiasssdda/*.csv
+      - /italiasssdda/*.xml
+      - /italiasssdda/*.xlsx
+    translation: /translation/%three_letters_code%/%original_file_name%
+  - source: /**/*.csv
+    translation: /translation/%three_letters_code%/%original_file_name%
+    first_line_contains_header: '1'
+    scheme: 'identifier,source_phrase,translation'
+  - source: /**/*.xlsx
+    translation: /translation/%three_letters_code%/%original_file_name%
+    languages_mapping:
+      three_letters_code:
+        uk: Ukrainiano
+    first_line_contains_header: '1'
+    scheme: 'identifier,source_or_translation'
+  - source: /**/*.xml
+    translation: /translation/%three_letters_code%/%original_file_name%
+    content_segmentation: '0'
+    translatable_elements:
+      - /data/string
