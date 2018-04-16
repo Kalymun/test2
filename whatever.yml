@@ -6,6 +6,7 @@ files:
       - /italiasssdda/*.csv
       - /italiasssdda/*.xml
       - /italiasssdda/*.xlsx
+      - /italiasssdda/*.tsv
     translation: /translation/%three_letters_code%/%original_file_name%
   - source: /**/*.csv
     translation: /translation/%three_letters_code%/%original_file_name%
@@ -23,3 +24,5 @@ files:
     content_segmentation: '0'
     translatable_elements:
       - /data/string
+  - source: /**/*.tsv
+    translation: /translation/%three_letters_code%/%original_file_name%
