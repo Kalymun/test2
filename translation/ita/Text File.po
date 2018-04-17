@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: x-test\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /master/italiasssdda/Text File.po\n"
+"Project-Id-Version: x-test\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: Tetyana <tanya@crowdin.com>\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"PO-Revision-Date: 2018-04-17 06:04-0400\n"
+
+msgid "Save"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
