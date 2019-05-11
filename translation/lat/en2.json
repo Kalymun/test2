@@ -1,0 +1,784 @@
+{
+  "ACCOUNT": {
+    "MESSAGES": {
+      "PENDING_TRANSACTION": "Your account has a pending transaction.",
+      "EMAIL_NOT_CONFIRMED": "You email address has not been confirmed. <a href='\/account\/confirm'>Resend confirmation email<\/a>",
+      "PAYMENT_FAILED": "Your payment failed",
+      "EMAIL_PROBLEMS": "We are having difficulties sending emails to your address."
+    },
+    "SETTINGS": {
+      "FIELDS": {
+        "INFORMATION": "Information",
+        "FIRST_NAME": "First name",
+        "LAST_NAME": "Last name",
+        "MARKETING_PREFERENCES": "Marketing preferences"
+      },
+      "SAVE_SUCCESS": "{0} saved successfully",
+      "EMAIL_CONFIRMATION": {
+        "SENT": "You should receive a confirmation email shortly.",
+        "RESENT": "A confirmation email has been sent to you."
+      },
+      "CHANGE_PASSWORD": {
+        "SUCCESS": "Your password has been changed successfully"
+      },
+      "CANCEL_SUBSCRIPTION": {
+        "CONFIRM": "Are you sure you want to downgrade your account?"
+      },
+      "EDIT": "edit",
+      "SAVE": "save",
+      "RESEND_CONFIRM_EMAIL": "Resend confirmation email",
+      "SEND_MARKETING_EMAILS": "Send me promotional offers.",
+      "CANCEL": "cancel"
+    },
+    "ACCORDION": {
+      "ACCOUNT_TITLE": "Account Settings",
+      "PLAN_TITLE": "Plan",
+      "BILLING_TITLE": "Billings",
+      "MASTERING": "Mastering History"
+    },
+    "BILLING": {
+      "NEXT_PAYMENT": "Your next payment of {{amount}} is due on {{duedate}}."
+    },
+    "BILLING_ADDRESS": "Billing Address",
+    "CREDIT_CARD": "Credit Card",
+    "INVOICES": {
+      "TITLE": "Invoices",
+      "LABELS": {
+        "DATE": "Date",
+        "DESCRIPTION": "Description",
+        "TOTAL_AMOUNT": "Total Amount"
+      },
+      "YEARLY_SUBSCRIPTION": "Yearly subscription",
+      "MONTHLY_SUBSCRIPTION": "Monthly subscription"
+    },
+    "NO_INVOICES": "You currently have no invoices.",
+    "MODAL_INVOICE": {
+      "TITLE": "Customer receipt for {{ duedate }}",
+      "REFERENCE": "invoice #{{id}}",
+      "PAYMENT_DETAILS": "Payment Details",
+      "YOUR_PLAN": "Your Plan:",
+      "COST": "Cost",
+      "TAX": "Tax *",
+      "TOTAL": "Total",
+      "PAYMENT": "Payment",
+      "THANK_YOU": "Thank for using LANDR for Instant Mastering",
+      "MG_ADDRESS": "Product of MixGenius<br \/>160 Saint Viateur East<br \/>Montreal, Canada, H2T 1A8",
+      "PRICING_TERMS": "Pricing Terms",
+      "OK": "OK",
+      "TAX_NB": "TPS:{{tps}} <br>TVQ:{{tvq}}"
+    },
+    "MASTERING_HISTORY": {
+      "NONE": "You've never mastered any tracks on LANDR.",
+      "ACCESS_DENIED": "This section requires you to confirm your email.",
+      "METADATA": {
+        "mp3": "{{track.format}} | {{track.bitRate}}kbps | {{intensity}} intensity",
+        "wav": "{{track.format}} | {{track.sampleRateKHz}}kHz | {{track.bitDepth}}bits | {{intensity}} intensity",
+        "INTENSITY": {
+          "low": "Low",
+          "med": "Medium",
+          "high": "High"
+        }
+      }
+    },
+    "PLAN": {
+      "CURRENT": {
+        "TITLE": "Your plan: {{plan}}",
+        "DETAILS": "Plan details:"
+      },
+      "EXPIRE": "(Expire: {{date}})",
+      "QUANTITY_REMAINING": "{{value}} uncompressed masters remaining for this month.",
+      "UPGRADE": "<a href='{{url}}'>Upgrade your account<\/a> to get the most out of LANDR.",
+      "DOWNGRADE": "Click here to downgrade your account to Free."
+    },
+    "EMAIL_CONFIRMATION": {
+      "TITLE": "Your email address has been confirmed.",
+      "THANK_YOU": "Thank you for confirming your email. You can now <a href='{{url}}'>Master a Track<\/a>.",
+      "PRIVACY_CONCERNS": {
+        "TITLE": "Privacy Concerns?",
+        "DETAILS": "We respect your creativity. We promise we will never publish or share your tracks without your express permission.<br \/><small>Read our <a href='{{url}}'>terms of service<\/a><\/small>"
+      },
+      "SOCIAL": "Stay in Touch"
+    },
+    "FINALIZE": {
+      "TITLE": "See what LANDR is all about",
+      "SUBTITLE": "Welcome",
+      "ASIDE": "We've started you an account, all that is left to do is create a password and get started mastering.",
+      "BTNSUBMIT": "Submit"
+    },
+    "FORGOT_PASSWORD": {
+      "TITLE": "Reset Password:",
+      "ASIDE": "We will email you instructions on how to reset your password.",
+      "BTN_SUBMIT": "Submit",
+      "CONFIRMATION": {
+        "TITLE": "Reset Password Confirmation:",
+        "ASIDE": "We have sent you an email with a link to reset your password. Please check your email."
+      }
+    },
+    "RESET_PASSWORD": {
+      "TITLE": "Reset Password:",
+      "BTN_SUBMIT": "Submit"
+    },
+    "SIGNUPPAGE": {
+      "TITLE": "Join LANDR and Master Tracks Instantly.",
+      "BTNSUBMIT": "Join for free",
+      "SUBTITLE": "You've Chosen",
+      "FORM_TITLE": "Create your Account"
+    }
+  },
+  "FORM": {
+    "INPUT": {
+      "PREFERRED_LANGUAGE": {
+        "PLACEHOLDER": "Language"
+      },
+      "FIRSTNAME": {
+        "PLACEHOLDER": "First name"
+      },
+      "LASTNAME": {
+        "PLACEHOLDER": "Last name"
+      },
+      "EMAIL": {
+        "PLACEHOLDER": "Email"
+      },
+      "PASSWORD": {
+        "PLACEHOLDER": "Password"
+      },
+      "ADDRESS": {
+        "LINE1": {
+          "PLACEHOLDER": "Address"
+        },
+        "LINE2": {
+          "PLACEHOLDER": "Address line 2"
+        },
+        "ERROR": {
+          "REQUIRED": "Address is required"
+        }
+      },
+      "CITY": {
+        "PLACEHOLDER": "City",
+        "ERROR": {
+          "REQUIRED": "City is required"
+        }
+      },
+      "POSTAL_CODE": {
+        "PLACEHOLDER": "Postal\/Zip code",
+        "ERROR": {
+          "REQUIRED": "Postal code is required"
+        }
+      },
+      "CC_NAME": {
+        "PLACEHOLDER": "Name as it appears on card"
+      },
+      "CC_NUMBER": {
+        "PLACEHOLDER": "Credit card number",
+        "ERROR": {
+          "REQUIRED": "Credit card number is required",
+          "INVALID": "Credit card number is invalid"
+        }
+      },
+      "CC_CVV": {
+        "PLACEHOLDER": "CVV",
+        "ERROR": {
+          "REQUIRED": "CVV is required"
+        }
+      },
+      "COUNTRY": {
+        "PLACEHOLDER": "Country",
+        "ERROR": {
+          "REQUIRED": "Country is required"
+        }
+      },
+      "STATE": {
+        "PLACEHOLDER": "State",
+        "ERROR": {
+          "REQUIRED": "State is required"
+        }
+      },
+      "CREDIT_CARD_TYPE": {
+        "PLACEHOLDER": "Select credit card type",
+        "ERROR": {
+          "REQUIRED": "Card type is required"
+        }
+      },
+      "CC_HOLDER_NAME": {
+        "ERROR": {
+          "REQUIRED": "Card holder name is required"
+        }
+      },
+      "CC_EXPIRY_YEAR": {
+        "PLACEHOLDER": "Expiry year",
+        "ERROR": {
+          "REQUIRED": "Expiry year is required"
+        }
+      },
+      "CC_EXPIRY_MONTH": {
+        "PLACEHOLDER": "Expiry month",
+        "ERROR": {
+          "REQUIRED": "Expiry month is required"
+        }
+      },
+      "CONFIRM_PASSWORD": {
+        "PLACEHOLDER": "Confirm Password"
+      }
+    },
+    "ERROR": {
+      "PASSWORD": {
+        "REQUIRED": "Password is required",
+        "INVALID": "Password is invalid",
+        "MINLENGTH": "Password minimum length is {{minimumLength}}",
+        "MISSMATCH": "Password mismatch"
+      },
+      "FIRSTNAME": {
+        "REQUIRED": "First name is required"
+      },
+      "EMAIL": {
+        "REQUIRED": "Email is required",
+        "INVALID": "Email is invalid",
+        "ALREADY_USED": "Email already used"
+      }
+    },
+    "TITLE": {
+      "PAYMENT": "Payment"
+    }
+  },
+  "MASTERING": {
+    "CUSTOM": {
+      "INTENSITY": {
+        "MED": "Med",
+        "LOW": "Low",
+        "HIGH": "High"
+      }
+    },
+    "SENT": {
+      "PRIVACY_CONCERNS": "Privacy Concerns?",
+      "PRIVACY_CONCERNS_DETAILS": "We respect your creativity. We promise we will never publish or share your tracks without your express permission.<br \/><small>Read our <a href='{{url}}'>terms of service<\/a><\/small>",
+      "SOCIAL": "Stay in Touch",
+      "TRACK_BEING_MASTERED": "Your track is being mastered",
+      "YOU_HAVE_MASTERING_LEFT_SINGULAR": "You have {{value}} track remaining in your account.",
+      "YOU_HAVE_MANY_MASTERING_LEFT": "You have {{value}} tracks remaining in your account.",
+      "TRACK_WILL_BE_EMAILED": "Your track is being mastered and <b>will be emailed to you in the next few minutes<\/b>.",
+      "JUNK": "Can't find it? Check your junk mail or send a <a href='{{url}}'><strong>support request<\/strong><\/a> to the LANDR Rescue Squad and we will dig it up for you.",
+      "MASTER_ANOTHER_TRACK": {
+        "TITLE": "Master another track",
+        "CONTENT": "<p><a href='{{url}}'>Click here<\/a> to master another file.<\/p>"
+      },
+      "MASTER_TRACK": "Master a track",
+      "CONTINUE_TO_MASTER": "« Continue to save master",
+      "UPSELL_FREE": "Want uncompressed files? <br \/><a href='{{url}}'>Upgrade now<\/a>",
+      "UPSELL_HOME": "Want more uncompressed files? <br \/><a href='{{url}}'>Upgrade now<\/a>"
+    },
+    "DOWNLOAD": {
+      "TITLE": "Your file should start downloading automatically...",
+      "DESC": "If your download does not start automatically, click <a href='{{link}}'>here<\/a>",
+      "ERROR": {
+        "TITLE": "Your file could not be found!",
+        "DESC": "If you think this a mistake, please contact the <a href='http:\/\/support.landr.com\/'>LANDR Rescue Team<\/a>."
+      }
+    }
+  },
+  "PREVIEW": {
+    "FORMAT": {
+      "ORIGINAL": "Original",
+      "MASTERED": "Mastered"
+    },
+    "EQUALIZER": {
+      "TITLE": "Push the highs or lows"
+    },
+    "INTENSITY": {
+      "TITLE": "Intensity Level",
+      "DESC": "Choose your side in the loudness war. Opt for more detail and dynamic range or slam it with sophistication."
+    },
+    "PUMP": {
+      "TITLE": "Want More Pump?",
+      "DESC": "Pump adds a subtle dynamic shift that can add a texture and energy to electronic and pop music."
+    }
+  },
+  "HOME": {
+    "MASTERING": {
+      "WARNING": {
+        "LEAVING": "Navigating away from this page will stop the mastering of your track. Are you sure you want to continue?"
+      },
+      "TITLE": {
+        "DEFAULT": "<b>Master Tracks.<\/b> Instantly.",
+        "UPLOADING": "<b>Uploading<\/b> Your Track",
+        "MASTERING": "<b>Mastering<\/b> Your Track"
+      },
+      "DRAG_HERE": "Drag Your<br \/>Song Here",
+      "DROP_HERE": "Drop Here",
+      "UPLOADING": "UPLOADING",
+      "MASTERING": "MASTERING",
+      "SORRY": "SORRY",
+      "ERROR": {
+        "NODRAGDROP": "<p>Your browser does not support drag and drop.<\/p>",
+        "TOOMUCHFILESPROVIDED": "<p>We can master only one file at a time.<\/p>",
+        "INVALIDFILETYPE": "<p>We cannot process that kind of file.<\/p><b><u>Try another file.<\/u><\/b>",
+        "FILETOOLARGE": "<p>This file is too large to be sent.<\/p>",
+        "UNKNOWN": "<p>An error occurred, please try again.<\/p>"
+      },
+      "LOGGED": {
+        "INFORMATION": {
+          "DEFAULT": "<h3>Professional Audio Mastering<\/h3><p>Sound like a pro. Instant results at a fraction of the cost of studio mastering.<\/p>",
+          "UPLOADING": "<h3>Artist Tips<\/h3><p>Master Your workflow&mdash;bounce your mix, master, listen, and revisit.<\/p>",
+          "MASTERING": "<h3>Artist Tips<\/h3><p>Ask an Engineer&mdash;it's all about headroom. Export your mix with -5 dBs before mastering. Check out our blog for more articles on headroom.<\/p>"
+        }
+      },
+      "INFORMATION": {
+        "DEFAULT": "<h3>Professional Audio Mastering<\/h3><p>Sound like a pro. Instant results at a fraction of the cost of studio mastering.<\/p><p>Try it for free, or <a href='\/join'>Sign Up Now<\/a><\/p>",
+        "UPLOADING": "<h3>Artist Tips<\/h3><p>Try a WAV&mdash;streaming sites like Soundcloud's best practice guides recommend uploading uncompressed WAVs for best results.<\/p>",
+        "MASTERING": "<h3>Artist Tips<\/h3><p>Do a Shootout&mdash;make multiple mixes and masters then A\/B them to see which wins. Pros love this trick.<\/p>",
+        "FILE_PICKER": "<i class='mg-icon-plus'><\/i> Or <span class='bold underlined'>click here<\/span> to pick a file from your computer"
+      },
+      "NOT_SUPPORTED": {
+        "TITLE": "You really want to master a track on a smartphone?",
+        "DESC": "Phones and tablets make drag and drop pretty hard. We're working on a solution for you, but for now check back on your desktop to upload a track."
+      }
+    },
+    "ABOUT": {
+      "COL1": {
+        "TITLE": "Instant",
+        "TEXT": "Drag-and-drop your mix-down to get an instant mastered preview which you can download in minutes. Tweak a few controls to refine your sound, and download!"
+      },
+      "COL2": {
+        "TITLE": "Affordable",
+        "TEXT": "Get <b class='mg-blue'>free<\/b> mastering for 192kbps MP3 (perfect for web) or upgrade to a subscription plan for uncompressed WAV files."
+      },
+      "COL3": {
+        "TITLE": "Amazing Sound",
+        "TEXT": "Your tracks delivered with polish and balance, ready to play alongside the best and biggest sounds. Share with confidence."
+      }
+    },
+    "INCENTIVES": {
+      "PARTNERS": "<ul><li><a href='http:\/\/www.residentadvisor.net\/review-view.aspx?id=15518' title='Resident Advisor' target='_blank'><img src='\/img\/partners\/resident_advisor.png' title='Resident Advisor' \/><\/a><\/li><li><a href='http:\/\/turborecordings.com\/' title='TURBO' target='_blank'><img src='\/img\/partners\/turbo.png' title='Turbo' \/><\/a><\/li><li><a href='http:\/\/www.fastcolabs.com\/3032642\/why-the-music-industrys-next-big-disruption-is-in-the-recording-studio' title='FAST COMPANY' target='_blank'><img src='\/img\/partners\/fast_company.png' title='FAST COMPANY' \/><\/a><\/li><li><a href='http:\/\/www.musicradar.com\/news\/tech\/landr-promises-drag-n-drop-instant-online-mastering-600932\/' title='MUSIC RADAR' target='_blank'><img src='\/img\/partners\/music_radar.png' title='MUSIC RADAR' \/><\/a><\/li><li><a href='http:\/\/noisey.vice.com\/en_ca\/blog\/landr-technology-interview' title='VICE' target='_blank'><img src='\/img\/partners\/vice.png' title='VICE' \/><\/a><\/li><li><a href='http:\/\/tristudios.com\/about' title='TRI Studios' target='_blank'><img src='\/img\/partners\/tri.png' title='TRI Studios' \/><\/a><\/li><\/ul>",
+      "HIGHLIGHTS": "Sound like a pro <span class='mg-blue'>without paying studio rates<\/span> or <span class='mg-blue'>learning complex plug-ins<\/span>"
+    }
+  },
+  "FAQ": {
+    "QUESTIONS": {
+      "ONE": "So, what exactly is mastering?",
+      "TWO": "How can I prepare my mix to get the best results from mastering?",
+      "THREE": "Can a robot really mix or master my tracks?",
+      "FOUR": "I don't like the idea of my track being over compressed and slammed through a limiter to sound loud at all costs. Is that what LANDR does?",
+      "FIVE": "Does it only master songs?",
+      "SIX": "Should I use LANDR, or hire a mastering studio?"
+    },
+    "ANSWERS": {
+      "ONE": "<p>Mastering is the art of refining and polishing finished stereo mixes by making subtle  adjustments to equalization, selectively adding compression, limiting, stereo enhancement, and other psychoacoustic tricks like aural excitation. Are you excited yet?<\/p>",
+      "TWO": "<p>LANDR is designed to be nearly foolproof, but, like any mastering service, or relationship, benefits from a little bit of breathing room.<\/p><p>First of all, make sure the master output isn't clipping. In fact, you should leave several dbs of headroom (keep the bouncing master level meters well below the red), ideally at -4 or -5db.<\/p><p>Secondly, avoid compression, limiting or EQ on the master output of your final mix. Only apply these processes if you feel they are musically essential, and try a version where they are left out completely.<\/p><p>Finally, export your mix in the highest possible bit depth (ex: 24bit) and sample rate (ex: 48kHz). This shouldn&rsquo;t make a huge difference over 16bit \/ 44.1kHz, but the more resolution LANDR has to read from, the more precisely it will make its adjustments.<\/p>",
+      "THREE": "<p>LANDR is a tool designed by sound engineers so, although it employs artificial intelligence, it is guided by profoundly human thought. The MixGenius team is comprised of leading sound engineers, signal processing specialists, record label owners, musicians and even an astrophysicist, all pursuing excellence in sound using cutting edge technology.<\/p>",
+      "FOUR": "<p>Not at all. We've worked hard to avoid this kind of simplistic mastering and have created a highly responsive, sensitive and incredibly musical mastering engine. If you think that our masters still sound too loud, try adjusting the settings. Keep in mind that we’ve tuned the output based on real human testing, so LANDR is designed to give users what they want… and it’s listening and learning to all the feedback we throw at it, so it’s only going to get better.<\/p>",
+      "FIVE": "<p>Nope, in fact we encourage people to try different things on it. Master samples for production work, drop in a drum bus, process a vocal on its own, or even put a full DJ set or live performance in. Get creative with LANDR and let us know how it sounds!<\/p>",
+      "SIX": "<p>The polish and balance achieved through the subtle adjustments of a skilled mastering engineer is not something we would ever diminish. There are some very talented engineers out there with exceptional ears, capable of brilliant work. It’s a beautiful art form, but there’s also a lot of science behind it, as our resident astrophysicist can attest.  What we've designed is a tool that’s so easy and affordable to use, it just makes sense to try LANDR out first. If you’re unsure of the results, and can afford to invest more time, effort and money, then pro mastering may well be worth your while. Having a LANDR file as a reference can be a useful tool, along with your feedback it will guide a mastering engineer in the right direction.<\/p>"
+    },
+    "TITLE": "FAQs"
+  },
+  "NAVIGATION": {
+    "APP": {
+      "UPGRADE": "Upgrade",
+      "MASTER": "Master a Track",
+      "LOGOUT": "Log Out",
+      "LOGIN": "Log In"
+    },
+    "HOME": {
+      "ABOUT": "About",
+      "PRICING": "Pricing",
+      "SUPPORT": "Support",
+      "BLOG": "Blog",
+      "LOGOUT": "Log Out",
+      "SIGNUP": "Sign Up Free",
+      "LOGIN": "Log In",
+      "MYACCOUNT": "My Account"
+    }
+  },
+  "LANGUAGES": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "ja": "Japanese",
+    "ru": "Russian",
+    "zh": "Chinese",
+    "de": "German"
+  },
+  "TESTIMONY": {
+    "TIGA": {
+      "TITLE": "'DJ, Recordings Artist, Label Owner",
+      "MESSAGE": "LANDR can actually help you FINISH your music... that critical, final, elusive, mysterious step has been demystified. And the results speak for themselves."
+    },
+    "COWAN": {
+      "TITLE": "Founder Arbutus Records",
+      "MESSAGE": "LANDR did an incredible mastering job on the tracks I sent through it. Although originally skeptical, I was thoroughly impressed and see a vast and immediate application for this; whether it&apos;s playing live with tracks or sending demos to labels."
+    },
+    "VICE": {
+      "TITLE": "Vice Magazine",
+      "MESSAGE": "The biggest leap forward in DIY recording technology since the development of home multitrack recorders."
+    },
+    "MEDWAY": {
+      "TITLE": "Engineer, Bjork, Depeche Mode, U2",
+      "MESSAGE": "I love the idea of A.I. in Music and Production and LANDR is the proof. It has made my workflow so much quicker. If you&apos;ve got a good set of ears and an open mind the results are clear."
+    },
+    "LEWIS": {
+      "TITLE": "Guitarist, Of Montreal",
+      "MESSAGE": "I love what you guys are doing! The sound quality is great... it opens up the songs and really makes them pop. It&apos;s like magic …"
+    },
+    "PLEASUREKRAFT": {
+      "TITLE": "DJs and Producers",
+      "MESSAGE": "a great everyday mastering tool with plenty of muscle to flex. If you’ve got Champagne taste, and beer budget - LANDR is what you&apos;ve been waiting for!"
+    }
+  },
+  "CHANGEPASSWORD": {
+    "CURRENT": "current",
+    "NEW": "new",
+    "RETYPE": "re type new",
+    "BTNSUBMIT": "submit"
+  },
+  "PRICING": {
+    "PROMO": {
+      "TITLE": "Promotion",
+      "FREE_FEATURE": "{{count}} free {{type}}",
+      "PLAN_TITLE": "+ Your monthly free plan"
+    },
+    "HOME": {
+      "AMOUNT": {
+        "FREE": "Free",
+        "PERMONTH": "{{amount}}\/month",
+        "PERYEAR": "or {{amount}}\/year - <span>save {{discount}}%<\/span>"
+      }
+    },
+    "PAGE": {
+      "TITLE": "LANDR has the best plan for you",
+      "AMOUNT": {
+        "PERMONTH": "{{amount}}<span>\/mo<\/span>",
+        "PERYEAR": "{{amount}}\/yr - <span>Save {{discount}}%<\/span>",
+        "PERTRACK": "{{amount}} \/ track",
+        "UNLIMITED": "Unlimited",
+        "OFF": "{{amount}}% off"
+      },
+      "LABELS": {
+        "TRACKS": "Additional tracks",
+        "INCLUDED": "What you get"
+      },
+      "HIGHLIGHTED": {
+        "TITLE": "Recommended"
+      },
+      "BUTTONS": {
+        "SUBSCRIBED": "SUBSCRIBED"
+      }
+    }
+  },
+  "UPGRADE": {
+    "BTNSUBMIT": "Next"
+  },
+  "PLAYER": {
+    "REGISTRATION": {
+      "TERMS": "by joining you agree to our <a ng-click='{{method}}'>terms of service<\/a>",
+      "TITLE": "Send me my track",
+      "SUBTITLE": "Create your account",
+      "ASIDE": {
+        "TITLE": "Your Free Account",
+        "LINE1": "<p>2 free MP3's per month<br \/> Low Per track pricing for MP3 and WAV<\/p>",
+        "LINE2": "<p>Optimized for SoundCloud<br \/> 192kpbs MP3<\/p>",
+        "LINE3": "<p><em>Want <b>Unlimited MP3 Masters<b\/>?<\/em><\/p>",
+        "LINE4": "<p><a href='{{url}}'>Upgrade to Basic for only $6 per month<\/a><\/p>"
+      },
+      "SIGNUPBUTTON": "Save and Send",
+      "LOGIN": "or <span ng-click='{{method}}' class='link'>log in<\/span>"
+    },
+    "PREVIEW": {
+      "SONG_IS_TOO_LOUD": "<b>Whoah!<\/b> Your track is too loud to master. We tried our best, but for better results <a href='http:\/\/blog.landr.com\/post\/95187946756\/7-tricks-to-create-headroom-and-how-it-will-save-your' target='_blank'>click here<\/a> to learn more.",
+      "TITLE": "Preview",
+      "FAQ": "Want to learn more about setting up files for masterings?<br \/><a href='{{url}}'>Click here to read our FAQ<\/a>"
+    }
+  },
+  "NOTFOUND": {
+    "CONTENT": "Something<br \/>wasn't plugged<br \/>in right..."
+  },
+  "FOOTER": {
+    "ABOUT": "About",
+    "SUPPORT": "Support",
+    "PRICING_TERMS": "Pricing Terms",
+    "TERMS_OF_SERVICE": "Terms of Service",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "ACCEPTABLE_USE_POLICY": "Acceptable Use Policy",
+    "COPYRIGHT": "Copyright",
+    "ADDRESS": "MIXGENIUS<br \/>160 St. Viateur East<br \/>Montreal, Quebec<br \/>Canada, H2T 1A8"
+  },
+  "SOCIAL": {
+    "FACEBOOK": "Facebook",
+    "TWITTER": "Twitter",
+    "TUMBLR": "Tumblr"
+  },
+  "PAGE": {
+    "ABOUT": {
+      "TITLE": "<b>About<\/b> LANDR",
+      "ASIDE": "<p><span class='mg-blue'>LANDR<\/span>. Mastering The Future.<\/p>",
+      "CONTENT": "<p>The music world has changed. New technology has made it easy and affordable for artists to create and share their work with total independence, but the final step in making music a fully DIY enterprise - mastering - has remained&nbsp;a complicated and elusive step. Until now.&nbsp;<\/p><p><span class='mg-blue'>Better Sound. Instantly.<\/span><\/p><p>LANDR revolutionizes the mastering process with drag-and-drop simplicity, achieving&nbsp;results that rival professional studio work in minutes. This opens up a world of possibilities for producers: LANDR your demos before sharing them, drop in full length DJ mixes or live recordings, make a track on the road and have it mastered in time for your gig the same night. LANDR lets you integrate mastering seamlessly into your creative process.&nbsp;<\/p><p><span class='mg-blue'>A.I. From the Heart<\/span><\/p><p>MixGenius incubated and refined algorithms developed over eight years of university research, testing and tweaking based on feedback from trained audio experts. Our team is composed of music industry veterans -&nbsp;award winning mixing engineers, top-level DSP programmers, musicians, producers and label owners - who know exactly what the mastering process needs to deliver.<\/p><p>LANDR is smart and getting smarter. Its true beauty lies in its ability to learn. Our system is built around an adaptive engine that &lsquo;listens&rsquo; and reacts to music, using micro-genre detection to make subtle frame-by-frame adjustments selectively using tools like multi-band compression, EQ, stereo enhancement, limiting and aural excitation based on the unique properties of the song. Basically, the more we throw at LANDR, the better it gets.<\/p><p><span class='mg-blue'>The Simple Truth<\/span><\/p><p>Rather than present an overwhelming array of options, LANDR presents one. Great design is all about limiting the field. We've added just a couple of carefully selected options to guide LANDR to produce the perfect master for you. If you feel comfortable in front of 40 different knobs, then try out one of the many quality mastering plugins out there, then compare the results to what LANDR can do.&nbsp;We&rsquo;re confident you&rsquo;ll hear the difference.<\/p>"
+    },
+    "ACCEPTABLE_USE": {
+      "TITLE": "<b>Acceptable<\/b> Use Policy"
+    },
+    "COOKIES": {
+      "TITLE": "<b>Cookies<\/b> required",
+      "CONTENT": "<h2>To used LANDR, enable your cookies in your browser and try again.<\/h2><p><em>Cookies<strong><span style='text-decoration: underline;'>.<\/span><\/strong><\/em> &nbsp; We also use &ldquo;cookies&rdquo; to collect information and improve our Services. A cookie is a small data file that we transfer to your Device. We may use &ldquo;persistent cookies&rdquo; to save your registration ID and login password for future logins to the Service. We may use &ldquo;session ID cookies&rdquo; to enable certain features of the Service, to better understand how you interact with the Service and to monitor aggregate usage and web traffic routing on the Service. You can instruct your browser, by changing its options, to stop accepting cookies or to prompt you before accepting a cookie from the websites you visit. If you do not accept cookies, however, you may not be able to use all aspects of the Service.<\/p><div style='margin-bottom:200px'><\/div>"
+    },
+    "COPYRIGHT": {
+      "TITLE": "<b>Copyright<\/b> info"
+    },
+    "PRICING_TERMS_AND_CONDITIONS": {
+      "TITLE": "<b>Pricing<\/b> Terms and Conditions"
+    },
+    "PRIVACY_POLICY": {
+      "TITLE": "<b>Privacy<\/b> Policy"
+    },
+    "TERMS_OF_SERVICE": {
+      "TITLE": "<b>Terms<\/b> of Service"
+    }
+  },
+  "DIRECTIVE": {
+    "LOADER": {
+      "MASTERING": "MASTERING"
+    }
+  },
+  "GLOBAL": {
+    "OF": "of",
+    "OR": "or",
+    "BUTTON": {
+      "NEXT": "Next",
+      "CANCEL": "Cancel",
+      "SAVE": "Save",
+      "REDEEM": "Redeem"
+    },
+    "MONTH": "month",
+    "MONTHS": "months",
+    "FREE": "free"
+  },
+  "MODAL": {
+    "ACTIONS": {
+      "BTN_NEGATIVE": "No",
+      "BTN_POSITIVE": "Yes",
+      "NEUTRAL": "OK",
+      "CLOSE": "Close this window"
+    },
+    "TERMS_OF_SERVICE": {
+      "TITLE": "Terms of Service"
+    }
+  },
+  "MASTERINGS": {
+    "OPTIONS": {
+      "HOME": {
+        "ASIDE": {
+          "MAKE_ANOTHER_VERSION": "<a href='{{url}}' class='btn btn-primary'>Change Intensity<\/a>"
+        },
+        "WAV": {
+          "TITLE": "CD Quality",
+          "DESCRIPTION": "<li>WAV<\/li><li>16 bit \/ 44.1k<\/li>"
+        },
+        "OVERLIMIT_ERROR": "<p>Sorry, you are over your monthly limit.<\/p><p><a ng-href='{{url}}'><b>Upgrade Now<\/b><\/a><\/p>",
+        "MP3": {
+          "TITLE": "Web Optimized",
+          "DESCRIPTION": "<li>MP3<\/li><li>192kbps<\/li><li>unlimited<\/li>"
+        },
+        "SUBMIT": "Save and Send"
+      },
+      "FILE_TYPE": "File Type:"
+    }
+  },
+  "PROMOTION": {
+    "INVALID_COUPON": "Invalid coupon code.",
+    "EXPIRED_PROMO": "Promotion expired.",
+    "ACTIVE": {
+      "TITLE": "Your promotion is now active!"
+    },
+    "RESULT": {
+      "THANK_YOU": "You've just joined the world's first intelligent mastering service. <b>Your account is now active.<\/b>",
+      "MASTER_A_TRACK": "Master a Track"
+    }
+  },
+  "WIDGET": {
+    "LOGIN": {
+      "TITLE": "Login:",
+      "EMAIL": {
+        "ERROR": {
+          "REQUIRED": "Email is required",
+          "FORMAT": "Invalid email"
+        }
+      },
+      "ACCOUNT": {
+        "NOTFOUND": {
+          "PART_A": "This email or",
+          "PART_B": "this password doesn't work"
+        },
+        "ERROR": {
+          "BANNED": "This account is banned"
+        }
+      },
+      "PASSWORD": {
+        "ERROR": {
+          "REQUIRED": "Password is required"
+        }
+      },
+      "REMEMBER_ME": "Keep me logged in",
+      "FORGOT_PASSWORD": "forgot your password?",
+      "SUBMIT": "Log In",
+      "CLOSE": "close"
+    }
+  },
+  "BUNDLES": {
+    "TITLE": "Your Plan: {{plan}}",
+    "EXTRA_STATUS": "Credits:",
+    "EXTRA_STATUS_CREDITS_DETAILS": "Note: Your credits refer to any unused monthly tracks, promos, referrals, etc.",
+    "BUTTON": {
+      "FREE": "DOWNLOAD",
+      "BUY": "BUY NOW",
+      "PRICE-FREE": "FREE"
+    },
+    "BUNDLE": {
+      "LANDR-MIXGENIUS-LEGACY-HOME": {
+        "TITLE": "Early Adopter—Pro",
+        "FEATURES": "<ul><li><b>4 Free WAV files<\/b><\/li><li>Unlimited Low Res MP3s<\/li><li>Per-track pricing for High Res MP3s<\/li><\/ul>",
+        "UPGRADE": "Want access to High Res MP3s? <a href='{{url}}'>Upgrade to new PRO plan<\/a>",
+        "STATUS": {
+          "MANY": "You have {{ remainingTokens.WAV_PARAM_44100.subRemaining }} WAV files left from your plan.",
+          "NONE": "You've used all your WAV files this month."
+        }
+      },
+      "LANDR-MIXGENIUS-LEGACY-PRO": {
+        "TITLE": "Early Adopter—Pro Unlimited",
+        "FEATURES": "<ul><li><b>Unlimited Low Res MP3s & WAVs<\/b><\/li><li>Per-track pricing for High Res MP3s<\/li><\/ul>",
+        "UPGRADE": "Want access to High Res MP3s? <a href='{{url}}'>Upgrade to new PRO plan<\/a>"
+      },
+      "LANDR-MIXGENIUS-LANDR-FREE": {
+        "SHORT_TITLE": "FREE",
+        "TITLE": "LANDR Free",
+        "SHORT_DESCRIPTION": "UNLIMITED<br \/>Previews<br \/>+ 2 Low Res MP3",
+        "DESCRIPTION": "LANDR Free with 2 Low Res MP3s per month + Per-track pricing for Low & High Res MP3s and WAVs.",
+        "FEATURES": "<ul><li><b>2 Free Low Res MP3s<\/b><\/li><li>Per-track pricing for Low & High Res MP3s and WAVs.<\/li><ul>",
+        "SIGNUP": "TRY IT FREE",
+        "UPGRADE": "<a href='{{url}}'>Upgrade now<\/a> for unlimited MP3s",
+        "SIGNUP_CTA": "Join LANDR and get 2 Free 192kpbs MP3 Masters",
+        "UPSELL": "Want more? <br><a href='purchase\/signup\/basic'>Sign up<\/a> for Unlimited MP3s for only $6 \/ mo",
+        "STATUS": {
+          "MANY": "You have {{ remainingTokens.MP3_PARAM_192.subRemaining }} Low Res MP3 left from your plan.",
+          "NONE": "You've used all your free Low Res MP3 this month."
+        }
+      },
+      "LANDR-MIXGENIUS-LANDR-BASIC": {
+        "SHORT_TITLE": "Basic",
+        "TITLE": "LANDR Basic",
+        "SHORT_DESCRIPTION": "UNLIMITED<br \/>Low Res MP3s<br \/>192kbps",
+        "DESCRIPTION": "LANDR Basic with unlimited Low Res MP3s + Per-track pricing for High Res MP3s and WAVs",
+        "FEATURES": "<ul><li><b>Unlimited Low Res MP3s<\/b><\/li><li>Per-track pricing for High Res MP3s and WAVs<\/li><ul>",
+        "SIGNUP": "GO BASIC",
+        "UPGRADE": "Music sounds better uncompressed<br \/><a href='{{url}}'>Upgrade now<\/a> for Unlimited High Res MP3s",
+        "SIGNUP_CTA": "Master as you record - make LANDR a part of your workflow",
+        "UPSELL": "Want uncompressed files? <br><a href='purchase\/signup\/advanced'>Sign up for Advanced<\/a> for only $14 \/ mo and get unlimited 320 MP3s"
+      },
+      "LANDR-MIXGENIUS-LANDR-ADVANCED": {
+        "SHORT_TITLE": "Advanced",
+        "TITLE": "LANDR Advanced",
+        "SHORT_DESCRIPTION": "UNLIMITED<br \/>High Res MP3s<br \/>320kbps",
+        "DESCRIPTION": "LANDR Advanced account with unlimited High and Low Res MP3s + 30% off WAVs",
+        "FEATURES": "<ul><li><b>Unlimited High and Low Res MP3s<\/b><\/li><li>30% off WAVs<\/li><\/ul>",
+        "SIGNUP": "GO ADVANCED",
+        "UPGRADE": "Music sounds better uncompressed<br \/><a href='{{url}}'>Upgrade now<\/a> for unlimited mastering",
+        "SIGNUP_CTA": "Go Advanced for Less Compressed",
+        "UPSELL": "Want uncompressed files? <br><a href='purchase\/signup\/complete'>Sign up for PRO<\/a> for unlimited mastering"
+      },
+      "LANDR-MIXGENIUS-LANDR-PRO": {
+        "SHORT_TITLE": "Pro",
+        "TITLE": "LANDR Pro",
+        "SHORT_DESCRIPTION": "UNLIMITED WAVs<br \/>Uncompressed<br \/>16 bit | 44.1khz",
+        "DESCRIPTION": "LANDR Pro account with unlimited MP3s and WAVs.",
+        "FEATURES": "<ul><li><b>Unlimited WAVs<\/b><\/li><li>Unlimited High and Low Res MP3s<\/li><\/ul>",
+        "SIGNUP_CTA": "Get Unlimited Mastering",
+        "UPSELL": "Ideal for studios and labels",
+        "SIGNUP": "GO PRO"
+      },
+      "LANDR-MIXGENIUS-LANDR-LOWRESMP3": {
+        "TITLE": "Low Res MP3"
+      },
+      "LANDR-MIXGENIUS-LANDR-HIGHRESMP3": {
+        "TITLE": "High Res MP3"
+      },
+      "LANDR-MIXGENIUS-LANDR-UNCOMPRESSEDWAV": {
+        "TITLE": "Uncompressed WAV"
+      }
+    },
+    "FEATURE_TYPES": {
+      "mp3": {
+        "TITLE": "MP3"
+      },
+      "wav": {
+        "TITLE": "WAV"
+      }
+    },
+    "FEATURE": {
+      "MP3_PARAM_192": {
+        "SHORT_TITLE": "LO",
+        "TITLE": "LO MP3",
+        "LONG_TITLE": "Low Res MP3",
+        "DESCRIPTION": "<b>Low Res MP3<\/b> Optimized for Sharing—192 kbps constant bit rate"
+      },
+      "MP3_PARAM_320": {
+        "SHORT_TITLE": "HI",
+        "TITLE": "HI MP3",
+        "LONG_TITLE": "High Res MP3",
+        "DESCRIPTION": "<b>High Res MP3<\/b> Highest Quality—320 kbps constant bit rate"
+      },
+      "WAV_PARAM_44100": {
+        "SHORT_TITLE": "BEST",
+        "TITLE": "WAV",
+        "LONG_TITLE": "Uncompressed WAV",
+        "DESCRIPTION": "<b>Uncompressed WAV<\/b> Best Quality—16 bits | 44.1 kHz sample rate. Recommended for soundcloud, youtube, bandcamp, etc."
+      }
+    }
+  },
+  "PURCHASE": {
+    "COUPON": {
+      "SHOW": "Got a coupon to reedeem?",
+      "APPLY": "Apply",
+      "INPUT": {
+        "PLACEHOLDER": "Enter Coupon"
+      },
+      "CART-TEXT": "Coupon <b>{{coupon}}<\/b>",
+      "CART-TEXT-PERCENTAGE": "Coupon <b>{{coupon}}<\/b> - {{discount}}%"
+    },
+    "PAYMENT": {
+      "FAILED": "There was a problem with your payment. Please check your details and try again or contact us at <a href='mailto:support@mixgenius.com'>support@mixgenius.com<\/a>.",
+      "CREDIT_CARD": "Credit",
+      "PAYPAL": "PayPal"
+    },
+    "PAYPAL": {
+      "PAYPAL_DOWN_TITLE": "Sorry, we can’t take your money right now.",
+      "PAYPAL_DOWN_CONTENT": "The wire to PAYPAL got unplugged.<br\/>We will let you know (and offer you some cool extras) when we are plugged back in."
+    },
+    "TOTAL": "Total =",
+    "TAXES": "Sales Tax",
+    "BUY": "Buy Now",
+    "DOWNLOAD": "Download",
+    "RECURRING": {
+      "CART-TEXT": "Discount for yearly subscription",
+      "CART-TEXT-PERCENTAGE": "Discount for yearly subscription - {{discount}}%",
+      "Monthly": "{{fee}} Monthly",
+      "Yearly": "{{fee}} Yearly",
+      "SAVINGS": "Save {{discount}}%",
+      "TITLE": "You are subscribing to our {{plan}} Plan",
+      "SUCCESS": {
+        "TITLE": "Your {{plan}} account is now active",
+        "MESSAGE": "<strong>Thanks, you have successfully subscribed to {{plan}}!<\/strong>",
+        "FOOTER": "",
+        "PLAN-DETAILS": "Your plan details:"
+      }
+    },
+    "A-LA-CARTE": {
+      "CART-TEXT": "Discount from subscription",
+      "CART-TEXT-PERCENTAGE": "Discount from subscription - {{discount}}%",
+      "TITLE": "You're buying a {{feature}} master",
+      "DESCRIPTION": "of your song <b>{{ track.title }}<\/b>",
+      "SUCCESS": {
+        "TITLE": "Your track is being mastered",
+        "MESSAGE": "<strong>Thanks, your payment to LANDR has been successful!<\/strong>",
+        "FOOTER": "<p>Can't find your file in your inbox? Check your junk mail or send a <a href='https:\/\/mixgenius.zendesk.com'>support request<\/a> to the LANDR Rescue Squad and we will dig it up for you.<\/p><p>We respect your creativity. We promise we will never publish or share your tracks without your express permission. For more information read our <a href='\/about\/terms-of-service'>terms of service<\/a><\/p>",
+        "MASTERING": "Your track is being mastered and <strong> will be emailed to you in the next few minutes.<\/strong>",
+        "UPGRADE-CTA": "Get more uncompressed files for less! <a href='\/pricing'>Upgrade now<\/a>."
+      }
+    }
+  }
+}
